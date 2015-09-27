@@ -30,6 +30,20 @@ class Welcome extends Application {
 
         $this->render();
     }
+    
+    /*
+     * This function displays an author by the link /lock/x/y where x and 
+     * y can be anything: Wildcard!
+     */
+    function shucks() {
+        $this->data['pagebody'] = 'justone';  // this is the view we want shown
+        
+        // build the list of authors, to pass on to our view
+        $source = $this->quotes->get(2);
+        $this->data = array_merge($this->data, $source);
+        
+        $this->render();
+    }
 
 }
 
