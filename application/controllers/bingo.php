@@ -1,5 +1,9 @@
 <?php
-
+/**
+ * The bingo page. It is set up using the justone view. It contains 
+ * the index function and a wisdom() function.  Both functions use 
+ * regex.
+ */
 class bingo extends Application
 {
     function __construct() {

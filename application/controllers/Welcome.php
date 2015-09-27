@@ -31,6 +31,10 @@ class Welcome extends Application {
         $this->render();
     }
     
+    /*
+     * This function displays an author by the link /lock/x/y where x and 
+     * y can be anything: Wildcard!
+     */
     function shucks() {
         $this->data['pagebody'] = 'justone';  // this is the view we want shown
         

@@ -1,5 +1,7 @@
 <?php
-
+/**
+ * The Guess page.  It links by /dunno. It is set up by the justone view.
+ */
 class guess extends Application
 {
     function __construct() {

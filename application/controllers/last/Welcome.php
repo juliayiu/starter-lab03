@@ -1,5 +1,9 @@
 <?php
 
+/*
+ * The Last page that is set up by the justone view.  It shows the last person
+ * on the list of authors.
+ */
 class Welcome extends Application
 {
     function __contruct()
